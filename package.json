@@ -1,7 +1,7 @@
 {
-	"name": "@pretendonetwork/sssl-dns",
+	"name": "@retendonetwork/sssl-dns",
 	"version": "1.0.0",
-	"description": "TCustom DNS server intended to be used in conjunction with SSSL",
+	"description": "Custom DNS server designed for use alongside SSSL. ",
 	"main": "dist/server.js",
 	"scripts": {
 		"lint": "npx eslint .",
@@ -9,7 +9,7 @@
 		"clean": "npx rimraf ./dist",
 		"start": "node --enable-source-maps ."
 	},
-	"author": "PretendoNetwork",
+	"author": "RetendoNetwork",
 	"license": "AGPL-3.0",
 	"dependencies": {
 		"@colors/colors": "^1.6.0",
